@@ -16,7 +16,6 @@ class Rectangle(Base):
         self.y = y
         super().__init__(id)
 
-
     @property
     def width(self):
         """ width getter """
@@ -114,4 +113,3 @@ class Rectangle(Base):
             dict_res[key] = getattr(self, key)
 
         return dict_res
-
