@@ -17,7 +17,6 @@ class Base:
             Base.__nb_objects += 1
             self.id = Base.__nb_objects
 
-
     @staticmethod
     def to_json_string(list_dictionaries):
         """ List to JSON string """
@@ -135,4 +134,3 @@ class Base:
             list_ins.append(cls.create(**matrix[index]))
 
         return list_ins
-
